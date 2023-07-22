@@ -67,7 +67,7 @@ button{
     border-radius: 5px;
 }
 .reg{
-    background-image: url('/img/Rectangle\ 9.png');
+    background-image: url('img/Rectangle\ 9.png');
     width: 70%;
     height: 300px;
     background-position: center;
@@ -111,7 +111,7 @@ line-height: normal;
 }
 .gruppic{
     display: flex;
-    margin: 10px;
+   gap: 10px;
 }
 img{
     width: 342px;
@@ -153,6 +153,12 @@ width: 464px;
 height: 538px;
 flex-shrink: 0;
 
+
+}
+.redius img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .redius>p{
     color: #272727;
@@ -200,6 +206,7 @@ text-decoration-line: underline;
 }
 .offlowers{
     display: flex;
+    gap: 15px;
 }
 footer{
     width: 1922px;
